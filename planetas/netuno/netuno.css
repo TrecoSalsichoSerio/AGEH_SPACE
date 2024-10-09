@@ -1,0 +1,45 @@
+body {
+    background: 
+    url(estrelas.jpg)
+    center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.netuno {
+    width: 20em;
+    height: 20em;
+    background: url(neptunemap.jpg);
+    box-shadow: 
+    inset -2em -2em 2em #000,
+    -0.3em -0.3em 0.5em #1b5ac7;
+    position: relative;
+    animation: rotate 50s linear infinite;
+    border-radius: 50%;
+}
+
+.planeta {
+    border-radius: 50%;
+    background-repeat: repeat;
+    background-size: 100% 100%;
+}
+
+@keyframes rotate {
+    to{ background-position: -200% 0;}
+}
+
+@keyframes orbit {
+    49% { z-index: 1; }
+    50% {
+        left: 25em;
+        z-index: -1;
+    }
+    99% { z-index: -1; }
+    100% {
+        left: -11em;
+        z-index: 1;
+    }
+}
