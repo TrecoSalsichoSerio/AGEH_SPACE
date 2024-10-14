@@ -4,12 +4,15 @@ body {
     center no-repeat;
     background-size: cover;
     min-height: 100vh;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin: 50px;
 }
 
 .jupter {
+    display: inline;
+    margin: 30px;
     width: 20em;
     height: 20em;
     background: url(jupitermap.jpg);
