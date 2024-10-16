@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+#titulo {
+    position: absolute; /* Ou 'fixed' se preferir que fique sempre visível */
+    top: 20px; /* Distância do topo */
+    left: 125px; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Compensa a largura do título para centralizar */
+    color: white; /* Ou qualquer cor que preferir */
+    font-size: 2em; /* Ajuste o tamanho da fonte conforme necessário */
+    z-index: 10; /* Certifique-se de que o título fique acima de outros elementos */
+}
+
+#titulo h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#titulo button, a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#titulo a{
+    font-size: 0.7em;
+}
+
+#titulo button{
+    font-size: 0.75em;
+}
+
+
+.container {
+    font-size: 6px;
+    width: 40em;
+    height: 40em;
+    position: relative;
+}
+
+img {
+    height: 130%;
+    width: 130%;
+}
+
+.sol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15em;
+    left: 15em;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    box-shadow: 0 0 3em rgb(255, 128, 0);
+}
+
+.mercurio,
+.venus,
+.terra,
+.lua,
+.marte,
+.jupiter,
+.saturno,
+.urano,
+.netuno,
+.prutaokk {
+    position: absolute;
+    cursor: pointer;
+    pointer-events: auto; /* Habilita eventos de clique */
+    top: 50%;
+    left: 50%;
+    transform-origin: -50% -50%; /* Centraliza a órbita */
+}
+
+.mercurio {
+    width: 2em;
+    height: 2em;
+    animation: orbit-mercurio 7s linear infinite;
+}
+
+.venus {
+    width: 3em;
+    height: 3em;
+    animation: orbit-venus 12s linear infinite;
+}
+
+.terra {
+    width: 4em;
+    height: 4em;
+    animation: orbit-terra 20s linear infinite;
+}
+
+.lua {
+    width: 1em;
+    height: 1em;
+    animation: orbit-lua 2.7s linear infinite;
+}
+
+.marte {
+    width: 3.5em;
+    height: 3.5em;
+    animation: orbit-marte 25s linear infinite;
+}
+
+.jupiter {
+    width: 5em;
+    height: 5em;
+    animation: orbit-jupiter 40s linear infinite;
+}
+
+.saturno {
+    width: 6em;
+    height: 6em;
+    animation: orbit-saturno 50s linear infinite;
+}
+
+.rings {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    width: 8em; /* Ajuste o tamanho conforme necessário */
+    height: 8em; /* Ajuste o tamanho conforme necessário */
+    background-image: url('./images/anelsaturno.jpg'); /* Caminho da sua imagem de anéis */
+    background-size: cover; /* Ajuste o tamanho da imagem para cobrir o div */
+    border-radius: 50%; /* Forma circular */
+    transform: translate(-50%, -50%); /* Centraliza os anéis em relação ao Saturno */
+    z-index: 0; /* Coloca os anéis atrás do planeta */
+}
+
+.urano {
+    width: 5.5em;
+    height: 5.5em;
+    animation: orbit-urano 70s linear infinite;
+}
+
+.netuno {
+    width: 5em;
+    height: 5em;
+    animation: orbit-netuno 90s linear infinite;
+}
+
+.prutaokk {
+    width: 6em;
+    height: 6em;
+    animation: orbit-prutaokk 100s linear infinite;
+}
+
+.planet-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+@keyframes orbit-mercurio {
+    from {
+        transform: rotate(0deg) translateX(10em) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(10em) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-venus {
+    from {
+        transform: rotate(0deg) translateX(15em) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(15em) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-terra {
+    from {
+        transform: rotate(0deg) translateX(20em) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(20em) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-lua {
+    from {
+        transform: rotate(0deg) translateX(4em) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(4em) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-marte {
+    from {
+        transform: rotate(0deg) translateX(25em) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(25em) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-jupiter {
+    from {
+        transform: rotate(0deg) translateX(30em) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(30em) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-saturno {
+    from {
+        transform: rotate(0deg) translateX(35em) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(35em) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-urano {
+    from {
+        transform: rotate(0deg) translateX(40em) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(40em) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-netuno {
+    from {
+        transform: rotate(0deg) translateX(45em) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(45em) rotate(-360deg);
+    }
+}
+
+@keyframes orbit-prutaokk {
+    from {
+        transform: rotate(0deg) translateX(50em) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(50em) rotate(-360deg);
+    }
+}
+
+.star {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    z-index: -1;
+}
