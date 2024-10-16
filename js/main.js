@@ -159,6 +159,6 @@ function transitionToNextPage() {
 
     // leva pro outro bagulho
     setTimeout(function() {
-        window.location.href = "../html/sistema2d.html"; // redirecionamento
+        window.location.href = "html/sistema2d.html"; // redirecionamento
     }, 1000); // Tempo animação (Poggers)
 }

@@ -11,7 +11,7 @@ body {
 
 .jupter {
     display: inline-block;
-    margin: 25px 15px 0 35%;
+    margin: 25px 10% 0 25%;
     width: 20em;
     height: 20em;
     background: url(../img/jupter/jupitermap.jpg);
@@ -25,7 +25,7 @@ body {
 
 .lua {
     display: inline-block;
-    margin: 25px 15px 0 35%;
+    margin: 25px 10% 0 25%;
     width: 20em;
     height: 20em;
     background: url(../img/terra/moonmap1k.jpg);
@@ -39,7 +39,7 @@ body {
 
 .marte {
     display: inline-block;
-    margin: 25px 15px 0 35%;
+    margin: 25px 10% 0 25%;
     width: 20em;
     height: 20em;
     background: url(../img/marte/marsmap1k.jpg);
@@ -53,7 +53,7 @@ body {
 
 .mercurio {
     display: inline-block;
-    margin: 25px 15px 0 35%;
+    margin: 25px 10% 0 25%;
     width: 20em;
     height: 20em;
     background: url(../img/mercurio/mercurymap.jpg);
@@ -67,7 +67,7 @@ body {
 
 .netuno {
     display: inline-block;
-    margin: 25px 15px 0 35%;
+    margin: 25px 10% 0 25%;
     width: 20em;
     height: 20em;
     background: url(../img/netuno/neptunemap.jpg);
@@ -121,10 +121,10 @@ body {
 /* Isso é uma estrela e não um planeta */
 .sol {
     display: inline-block;
-    margin: 25px 15px 0 35%;
+    margin: 25px 10% 0 25%;
     width: 20em;
     height: 20em;
-    background: url(../img/sol/sunmap.jpg);
+    background: url(../img/sol/sol.jpg);
     box-shadow: 
     inset -2em -2em 2em #000,
     -0.5em -0.5em 1em #ffae00,
@@ -172,7 +172,7 @@ body {
 
 .urano {
     display: inline-block;
-    margin: 25px 15px 0 35%;
+    margin: 25px 10% 0 25%;
     width: 20em;
     height: 20em;
     background: url(../img/urano/uranusmap.jpg);
@@ -186,7 +186,7 @@ body {
 
 .venus {
     display: inline-block;
-    margin: 25px 15px 0 35%;
+    margin: 25px 10% 0 25%;
     width: 20em;
     height: 20em;
     background: url(../img/venus/venusmap.jpg);

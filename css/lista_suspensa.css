@@ -14,6 +14,7 @@
     text-decoration: none;
     display: block;
     border: #ffffff solid 1px;
+    width: 160px;
 }
 
 .menu-button:hover{
