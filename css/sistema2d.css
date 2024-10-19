@@ -132,7 +132,7 @@ img {
     left: 50%; /* Centraliza horizontalmente */
     width: 8%; /* Ajuste o tamanho conforme necessário */
     height: 8%; /* Ajuste o tamanho conforme necessário */
-    background-image: url('./images/anelsaturno.jpg'); /* Caminho da sua imagem de anéis */
+    background-image: url('../img/saturno/anelsaturno.jpg'); /* Caminho da sua imagem de anéis */
     background-size: cover; /* Ajuste o tamanho da imagem para cobrir o div */
     border-radius: 50%; /* Forma circular */
     transform: translate(-50%, -50%); /* Centraliza os anéis em relação ao Saturno */
