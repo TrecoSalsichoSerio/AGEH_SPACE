@@ -33,11 +33,11 @@ body {
 }
 
 #titulo a{
-    font-size: 0.7%;
+    font-size: 0.7em;
 }
 
 #titulo button{
-    font-size: 0.75%;
+    font-size: 0.75em;
 }
 
 
@@ -85,44 +85,44 @@ img {
 }
 
 .mercurio {
-    width: 2%;
-    height: 2%;
+    width: 20%;
+    height: 20%;
     animation: orbit-mercurio 7s linear infinite;
 }
 
 .venus {
-    width: 3%;
-    height: 3%;
+    width: 30%;
+    height: 30%;
     animation: orbit-venus 12s linear infinite;
 }
 
 .terra {
-    width: 4%;
-    height: 4%;
+    width: 40%;
+    height: 40%;
     animation: orbit-terra 20s linear infinite;
 }
 
 .lua {
-    width: 1%;
-    height: 1%;
+    width: 10%;
+    height: 10%;
     animation: orbit-lua 2.7s linear infinite;
 }
 
 .marte {
-    width: 3.5%;
-    height: 3.5%;
+    width: 35%;
+    height: 35%;
     animation: orbit-marte 25s linear infinite;
 }
 
 .jupiter {
-    width: 5%;
-    height: 5%;
+    width: 50%;
+    height: 50%;
     animation: orbit-jupiter 40s linear infinite;
 }
 
 .saturno {
-    width: 6%;
-    height: 6%;
+    width: 60%;
+    height: 60%;
     animation: orbit-saturno 50s linear infinite;
 }
 
@@ -132,28 +132,28 @@ img {
     left: 50%; /* Centraliza horizontalmente */
     width: 8%; /* Ajuste o tamanho conforme necessário */
     height: 8%; /* Ajuste o tamanho conforme necessário */
-    background-image: url('./images/anelsaturno.jpg'); /* Caminho da sua imag% de anéis */
-    background-size: cover; /* Ajuste o tamanho da imag% para cobrir o div */
+    background-image: url('./images/anelsaturno.jpg'); /* Caminho da sua imagem de anéis */
+    background-size: cover; /* Ajuste o tamanho da imagem para cobrir o div */
     border-radius: 50%; /* Forma circular */
-    transform: translate(-50%, -50%); /* Centraliza os anéis % relação ao Saturno */
+    transform: translate(-50%, -50%); /* Centraliza os anéis em relação ao Saturno */
     z-index: 0; /* Coloca os anéis atrás do planeta */
 }
 
 .urano {
-    width: 5.5%;
-    height: 5.5%;
+    width: 55%;
+    height: 55%;
     animation: orbit-urano 70s linear infinite;
 }
 
 .netuno {
-    width: 5%;
-    height: 5%;
+    width: 50%;
+    height: 50%;
     animation: orbit-netuno 90s linear infinite;
 }
 
 .prutaokk {
-    width: 0.25%;
-    height: 0.25%;
+    width: 2.5%;
+    height: 2.5%;
     animation: orbit-prutaokk 100s linear infinite;
 }
 
