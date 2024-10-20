@@ -11,13 +11,13 @@ body {
 }
 
 #titulo {
-    position: absolute; /* Ou 'fixed' se preferir que fique s%pre visível */
+    position: absolute; /* Ou 'fixed' se preferir que fique sempre visível */
     top: 20px; /* Distância do topo */
     left: 125px; /* Centraliza horizontalmente */
     transform: translateX(-50%); /* Compensa a largura do título para centralizar */
     color: white; /* Ou qualquer cor que preferir */
     font-size: 2em; /* Ajuste o tamanho da fonte conforme necessário */
-    z-index: 10; /* Certifique-se de que o título fique acima de outros el%entos */
+    z-index: 10; /* Certifique-se de que o título fique acima de outros elementos */
 }
 
 #titulo h1{
@@ -43,8 +43,8 @@ body {
 
 .container {
     font-size: 6px;
-    width: 40%;
-    height: 40%;
+    width: 40em;
+    height: 40em;
     position: relative;
 }
 
@@ -58,12 +58,12 @@ img {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 15%;
-    left: 15%;
-    width: 10%;
-    height: 10%;
+    top: 15em;
+    left: 15em;
+    width: 10em;
+    height: 10em;
     border-radius: 50%;
-    box-shadow: 0 0 3% rgb(255, 128, 0);
+    box-shadow: 0 0 3em rgb(255, 128, 0);
 }
 
 .mercurio,
@@ -85,44 +85,44 @@ img {
 }
 
 .mercurio {
-    width: 20%;
-    height: 20%;
+    width: 2em;
+    height: 2em;
     animation: orbit-mercurio 7s linear infinite;
 }
 
 .venus {
-    width: 30%;
-    height: 30%;
+    width: 3em;
+    height: 3em;
     animation: orbit-venus 12s linear infinite;
 }
 
 .terra {
-    width: 40%;
-    height: 40%;
+    width: 4em;
+    height: 4em;
     animation: orbit-terra 20s linear infinite;
 }
 
 .lua {
-    width: 10%;
-    height: 10%;
+    width: 1em;
+    height: 1em;
     animation: orbit-lua 2.7s linear infinite;
 }
 
 .marte {
-    width: 35%;
-    height: 35%;
+    width: 3.5em;
+    height: 3.5em;
     animation: orbit-marte 25s linear infinite;
 }
 
 .jupiter {
-    width: 50%;
-    height: 50%;
+    width: 5em;
+    height: 5em;
     animation: orbit-jupiter 40s linear infinite;
 }
 
 .saturno {
-    width: 60%;
-    height: 60%;
+    width: 6em;
+    height: 6em;
     animation: orbit-saturno 50s linear infinite;
 }
 
@@ -130,8 +130,8 @@ img {
     position: absolute;
     top: 50%; /* Centraliza verticalmente */
     left: 50%; /* Centraliza horizontalmente */
-    width: 8%; /* Ajuste o tamanho conforme necessário */
-    height: 8%; /* Ajuste o tamanho conforme necessário */
+    width: 8em; /* Ajuste o tamanho conforme necessário */
+    height: 8em; /* Ajuste o tamanho conforme necessário */
     background-image: url('../img/saturno/anelsaturno.jpg'); /* Caminho da sua imagem de anéis */
     background-size: cover; /* Ajuste o tamanho da imagem para cobrir o div */
     border-radius: 50%; /* Forma circular */
@@ -140,20 +140,20 @@ img {
 }
 
 .urano {
-    width: 55%;
-    height: 55%;
+    width: 5.5em;
+    height: 5.5em;
     animation: orbit-urano 70s linear infinite;
 }
 
 .netuno {
-    width: 50%;
-    height: 50%;
+    width: 5em;
+    height: 5em;
     animation: orbit-netuno 90s linear infinite;
 }
 
 .prutaokk {
-    width: 2.5%;
-    height: 2.5%;
+    width: 0.25em;
+    height: 0.25em;
     animation: orbit-prutaokk 100s linear infinite;
 }
 
@@ -166,91 +166,91 @@ img {
 
 @keyframes orbit-mercurio {
     from {
-        transform: rotate(0deg) translateX(10%) rotate(0deg);
+        transform: rotate(0deg) translateX(10em) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateX(10%) rotate(-360deg);
+        transform: rotate(360deg) translateX(10em) rotate(-360deg);
     }
 }
 
 @keyframes orbit-venus {
     from {
-        transform: rotate(0deg) translateX(15%) rotate(0deg);
+        transform: rotate(0deg) translateX(15em) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateX(15%) rotate(-360deg);
+        transform: rotate(360deg) translateX(15em) rotate(-360deg);
     }
 }
 
 @keyframes orbit-terra {
     from {
-        transform: rotate(0deg) translateX(20%) rotate(0deg);
+        transform: rotate(0deg) translateX(20em) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateX(20%) rotate(-360deg);
+        transform: rotate(360deg) translateX(20em) rotate(-360deg);
     }
 }
 
 @keyframes orbit-lua {
     from {
-        transform: rotate(0deg) translateX(4%) rotate(0deg);
+        transform: rotate(0deg) translateX(4em) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateX(4%) rotate(-360deg);
+        transform: rotate(360deg) translateX(4em) rotate(-360deg);
     }
 }
 
 @keyframes orbit-marte {
     from {
-        transform: rotate(0deg) translateX(25%) rotate(0deg);
+        transform: rotate(0deg) translateX(25em) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateX(25%) rotate(-360deg);
+        transform: rotate(360deg) translateX(25em) rotate(-360deg);
     }
 }
 
 @keyframes orbit-jupiter {
     from {
-        transform: rotate(0deg) translateX(30%) rotate(0deg);
+        transform: rotate(0deg) translateX(30em) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateX(30%) rotate(-360deg);
+        transform: rotate(360deg) translateX(30em) rotate(-360deg);
     }
 }
 
 @keyframes orbit-saturno {
     from {
-        transform: rotate(0deg) translateX(35%) rotate(0deg);
+        transform: rotate(0deg) translateX(35em) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateX(35%) rotate(-360deg);
+        transform: rotate(360deg) translateX(35em) rotate(-360deg);
     }
 }
 
 @keyframes orbit-urano {
     from {
-        transform: rotate(0deg) translateX(40%) rotate(0deg);
+        transform: rotate(0deg) translateX(40em) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateX(40%) rotate(-360deg);
+        transform: rotate(360deg) translateX(40em) rotate(-360deg);
     }
 }
 
 @keyframes orbit-netuno {
     from {
-        transform: rotate(0deg) translateX(45%) rotate(0deg);
+        transform: rotate(0deg) translateX(45em) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateX(45%) rotate(-360deg);
+        transform: rotate(360deg) translateX(45em) rotate(-360deg);
     }
 }
 
 @keyframes orbit-prutaokk {
     from {
-        transform: rotate(0deg) translateX(50%) rotate(0deg);
+        transform: rotate(0deg) translateX(50em) rotate(0deg);
     }
     to {
-        transform: rotate(360deg) translateX(50%) rotate(-360deg);
+        transform: rotate(360deg) translateX(50em) rotate(-360deg);
     }
 }
 
