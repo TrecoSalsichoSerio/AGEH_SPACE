@@ -148,9 +148,7 @@ function update() {
 
 // Vê se o ENTER foi apertado (SE TÁ FUNCIONANDO NÃO MEXE PORRA)
 document.addEventListener('keydown', function(event) {
-    if (event.key === 'Enter') {
-        transitionToNextPage();
-    }
+    transitionToNextPage();
 });
 
 function transitionToNextPage() {
