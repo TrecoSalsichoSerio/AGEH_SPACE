@@ -13,8 +13,13 @@ h1{
     
 }
 
-a {
-    width: 65px;
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button {
+    width: 150px;
     font-size: 1em;
     background-color: #ffffff00;
     cursor: pointer;
@@ -25,7 +30,7 @@ a {
     border: #ffffff solid 1px;
 }
 
-a:hover{
+button:hover{
     background-color: #ffffff60;
 }
 
@@ -44,4 +49,5 @@ a:hover{
 
 strong{
     font-weight: bold;
+    color: #ffffff;
 }
