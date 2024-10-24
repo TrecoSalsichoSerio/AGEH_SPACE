@@ -1,0 +1,51 @@
+/* Estilo para o menu */
+.menu {
+    position: relative;
+    display: inline;
+}
+
+/* Estilo para o botão do menu */
+.menu-button {
+    background-color: #ffffff00;
+    cursor: pointer;
+    color: white;
+    padding: 4%;
+    text-decoration: none;
+    display: block;
+    border: #ffffff solid 1px;
+    min-width: 60%;
+}
+
+.menu-button:hover{
+    background-color: #ffffff60;
+}
+
+/* Estilo para a lista suspensa */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 60%;
+    z-index: 1;
+}
+
+/* Estilo para os itens da lista suspensa */
+.dropdown-content a {
+    text-align: center;
+    color: white;
+    padding: 5%;
+    text-decoration: none;
+    display: block;
+    border: #ffffff solid 1px;
+}
+
+/* Mudar a cor do link quando o mouse passa sobre ele */
+.dropdown-content a:hover {
+    background-color: #ffffff60;
+}
+
+/*Botões expostos*/
+.toolbar{
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+}
