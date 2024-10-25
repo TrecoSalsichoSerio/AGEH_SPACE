@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    background-color: #1c1919;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quests {
+    background-color: rgb(66, 60, 60);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.questao {
+    margin-bottom: 35px;
+}
+
+.mabel {
+    display: block;
+    margin: 10px;
+
+}
+
+button {
+    background-color: #b3b3b3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(49, 47, 47);
+}
