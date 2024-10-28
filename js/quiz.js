@@ -1,6 +1,18 @@
 document.getElementById("enviarQuiz").addEventListener("click", verificarRespostas);
 
 function verificarRespostas(){
+    document.querySelectorAll(".questao").forEach(div=>{
+        div.classList.remove("not-selected-div")
+    })
+    for(let i=1; i <= document.querySelectorAll(".questao").length; i++){
+        if (document.querySelector(`input[name=q${i}]:checked`)==undefined) {
+            document.querySelector(`input[name=q${i}]`).parentElement.parentElement.classList.add("not-selected-div")
+            setTimeout(()=>{
+                alert(`Marque todas as questões - Questão número ${i}`)
+            }, 100)
+            return
+        }
+    }
     let pontos = 0;
 
     //vereficar pergunta 1
