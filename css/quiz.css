@@ -11,7 +11,6 @@ body {
     background-color: #1c1919;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
 }
 
 .quests {
@@ -36,7 +35,7 @@ h2 {
 .questao {
     background-color: rgb(66, 60, 60);
     padding: 1rem;
-    width: 23%;
+    width: 30%;
     height: 200px;
     border-radius: 10px;
     margin-bottom: 35px;
@@ -95,4 +94,8 @@ button:hover {
 }
 .not-selected-div:hover{
     background-color: rgba(124, 25, 25, 0.74);
+}
+
+.enviarQuiz{
+    position: absolute;
 }
