@@ -59,6 +59,11 @@ body {
     border-radius: 50%;
 }
 
+.marte:hover {
+    height: 25em;
+    width: 25em;
+}
+
 .mercurio {
     display: inline-block;
     margin: 10% 5% 0 15%;
@@ -149,7 +154,7 @@ body {
 /* Isso é um planeta */
 .terra {
     display: inline-block;
-    margin: 10% 10% 0 20%;
+    margin: 10% 5% 0 15%;
     width: 20em;
     height: 20em;
     background: url(../img/terra/earthmap1k.jpg);
