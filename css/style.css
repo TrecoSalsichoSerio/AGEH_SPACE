@@ -28,6 +28,31 @@ img.cosmos {
   animation: fadeOut 1s forwards;
 }
 
+a {
+  position: absolute;
+  z-index: 20;
+  width: 10px;
+  height: 10px;
+  margin: 50px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-decoration: none;
+}
+
+a button{
+  font-size: 2em;
+  background-color: #ffffff00;
+  cursor: pointer;
+  color: white;
+  padding: 100%;
+  text-decoration: none;
+  display: block;
+  border: #ffffff solid 1px;
+  min-width: 60%;
+}
+
 @keyframes fadeOut {
   from {
       opacity: 1;
