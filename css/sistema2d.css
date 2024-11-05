@@ -24,6 +24,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 30px;
 }
 
 #titulo button, a{
@@ -33,11 +34,11 @@ body {
 }
 
 #titulo a{
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 
 #titulo button{
-    font-size: 0.75em;
+    font-size: 0.8em;
 }
 
 
