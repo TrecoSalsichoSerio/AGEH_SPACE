@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="../../css/info.css">
     <title>Mercúrio</title>
     <link rel="icon" href="../../icon.png">
+    <script src="../../js/info.js"></script>
 </head>
-<body>
+<body page="pag0">
 
     <header>
         <h1>Mercúrio</h1>
@@ -18,20 +19,69 @@
 
     <main>
         <div class="mercurio"></div>
-        <div class="info">
-            <p><strong>Sobre:</strong> Mercúrio é o menor e mais interno planeta do Sistema Solar, orbitando o Sol a cada 87,969 dias terrestres. A sua órbita tem a maior excentricidade e o seu eixo apresenta a menor inclinação em relação ao plano da órbita dentre todos os planetas do Sistema Solar.</p>
-            <p><strong>Luas:</strong> Não possui luas</p>
-            <p><strong>Raio:</strong> 2.439,7 km</p>
-            <p><strong>Distância do Sol:</strong> 58.000.000 km</p>
-            <p><strong>Massa:</strong> 3,285 × 10^23 kg</p>
-            <p><strong>Gravidade:</strong> 3,7 m/s²</p>
-            <p><strong>Área da superfície:</strong> 74.800.000 km²</p>
-        </div>
+        <section>
+            <div class="info">
+                <div id="pag0">
+                    <p><strong>Sobre:</strong> Mercúrio é o menor e mais interno planeta do Sistema Solar, orbitando o Sol a cada 87,969 dias terrestres. A sua órbita tem a maior excentricidade e o seu eixo apresenta a menor inclinação em relação ao plano da órbita dentre todos os planetas do Sistema Solar.</p>
+                    <p><strong>Luas:</strong> Não possui luas</p>
+                    <p><strong>Raio:</strong> 2.439,7 km</p>
+                    <p><strong>Distância do Sol:</strong> 58.000.000 km</p>
+                    <p><strong>Massa:</strong> 3,285 × 10^23 kg</p>
+                    <p><strong>Gravidade:</strong> 3,7 m/s²</p>
+                    <p><strong>Área da superfície:</strong> 74.800.000 km²</p>
+                </div>
+                <div id="pag1">
+                    <h2>Mercúrio</h2>
+                    <p>Mercúrio é o menor e mais próximo planeta do Sol no Sistema Solar. Apesar de seu tamanho reduzido, ele tem características únicas que o tornam fascinante para os cientistas. Sem uma atmosfera significativa, Mercúrio enfrenta condições extremas de temperatura e tem uma superfície cheia de crateras, semelhante à Lua.</p>
+
+                </div>
+                <div id="pag2">
+                    <h2>Superfície e Relevo:</h2>
+                    <p>A superfície de Mercúrio é coberta por crateras de impacto, vales e planícies, resultado de bilhões de anos de colisões com asteroides e cometas. A cratera mais famosa é a Bacia Caloris, que tem cerca de 1.550 km de diâmetro e foi formada por um impacto gigantesco. Mercúrio também possui falhas geológicas chamadas escarpas ou penhascos de escarpa, que surgiram quando o planeta encolheu à medida que seu núcleo esfriava.</p>
+
+                </div>
+                <div id="pag3">
+                    <h2>Atmosfera:</h2>
+                    <p>Mercúrio não possui uma atmosfera verdadeira, mas sim uma exosfera extremamente fina, composta por traços de oxigênio, sódio, hidrogênio, hélio e potássio. Esta exosfera não retém calor, resultando em variações extremas de temperatura. Durante o dia, a superfície de Mercúrio pode atingir 430°C, enquanto à noite pode cair para -180°C.</p>
+
+                </div>
+                <div id="pag4">
+                    <h2>Clima e Temperatura:</h2>
+                    <p>Devido à proximidade com o Sol e à ausência de uma atmosfera espessa, Mercúrio tem uma das maiores variações de temperatura no Sistema Solar. O planeta não tem clima no sentido tradicional, pois sua exosfera é muito fina para sustentar fenômenos climáticos como os que ocorrem na Terra.</p>
+
+                </div>
+                <div id="pag5">
+                    <h2>Rotação e Órbita:</h2>
+                    <p>Mercúrio tem uma rotação lenta, levando cerca de 59 dias terrestres para completar uma rotação em torno de seu eixo, mas orbita o Sol rapidamente, em aproximadamente 88 dias terrestres. Isso faz com que um "dia solar" (de um nascer ao outro do Sol) em Mercúrio dure 176 dias terrestres. Além disso, sua órbita é altamente elíptica, o que significa que sua distância ao Sol varia consideravelmente ao longo do ano.</p>
+
+                </div>
+                <div id="pag6">
+                    <h2>Campo Magnético:</h2>
+                    <p>Apesar de seu pequeno tamanho, Mercúrio tem um campo magnético relativamente forte, cerca de 1% do da Terra, o que surpreendeu os cientistas. Esse campo magnético indica que Mercúrio possui um núcleo metálico líquido. A interação do campo magnético de Mercúrio com o vento solar cria fenômenos como auroras fracas, apesar de sua fina exosfera.</p>
+
+                </div>
+                <div id="pag7">
+                    <h2>Exploração:</h2>
+                    <p>Mercúrio é difícil de observar e explorar devido à sua proximidade ao Sol. No entanto, missões como a Mariner 10 e a Messenger enviaram imagens detalhadas e informações sobre a composição e geologia do planeta. A missão BepiColombo, lançada em 2018, está atualmente a caminho para estudar Mercúrio em maior detalhe, com chegada prevista para 2025.</p>
+                    <p>Mercúrio, com suas temperaturas extremas, superfície craterada e órbita incomum, é um planeta único que oferece valiosos insights sobre a formação e evolução dos planetas rochosos no Sistema Solar.</p>
+
+                </div>
+
+            </div>
+            <div class="navegar">
+                <button onclick="visualizar('Voltar')">&lsaquo; Voltar</button>
+                <button onclick="visualizar('Avançar')">Avançar &rsaquo;</button>
+
+             </div>
+        </section>
 
     </main>
 
     <footer>
 
     </footer>
+    <script>
+        pagMaximo = 7
+    </script>
 </body>
 </html>

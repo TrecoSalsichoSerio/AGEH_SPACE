@@ -6,14 +6,48 @@
 #pag1{
     display: none;
 }
+#pag2{
+    display: none;
+}
+#pag3{
+    display: none;
+}
+#pag4{
+    display: none;
+}
+#pag5{
+    display: none;
+}
+#pag6{
+    display: none;
+}
+#pag7{
+    display: none;
+}
 
 body[page=pag0] #pag0{
     display: block;
-    
 } 
 body[page=pag1] #pag1{
     display: block;
-
+}
+body[page=pag2] #pag2{
+    display: block;
+}
+body[page=pag3] #pag3{
+    display: block;
+}
+body[page=pag4] #pag4{
+    display: block;
+}
+body[page=pag5] #pag5{
+    display: block;
+}
+body[page=pag6] #pag6{
+    display: block;
+}
+body[page=pag7] #pag7{
+    display: block;
 }
 
 body{
@@ -86,4 +120,10 @@ strong{
     justify-content: end;
     align-items: start;
     text-align: center;
+}
+
+.info h3{
+    color: #ffffff;
+    font-size: 1.5em;
+    padding: 10px;
 }

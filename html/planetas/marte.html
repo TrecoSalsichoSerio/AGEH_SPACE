@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="../../css/info.css">
     <title>Marte</title>
     <link rel="icon" href="../../icon.png">
+    <script src="../../js/info.js"></script>
 </head>
-<body>
+<body page="pag0">
 
     <header>
         <h1>Marte</h1>
@@ -18,20 +19,64 @@
 
     <main>
         <div class="marte"></div>
-        <div class="info">
-            <p><strong>Sobre:</strong> Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema Solar, atrás apenas de Mercúrio. Batizado em homenagem a divindade romana da guerra, muitas vezes é descrito como o "Planeta Vermelho", porque o óxido de ferro predominante em sua superfície lhe dá uma aparência avermelhada.</p>
-            <p><strong>Luas:</strong> Fobos, Deimos</p>
-            <p><strong>Raio:</strong>  3.390 km</p>
-            <p><strong>Distância do Sol:</strong> 227.900.000 km</p>
-            <p><strong>Massa:</strong> 6,39 × 10^23 kg</p>
-            <p><strong>Gravidade:</strong> 3,73 m/s²</p>
-            <p><strong>Área da superfície:</strong> 144.400.000 km²</p>
-        </div>
+        <section>
+            <div class="info">
+                <div id="pag0">
+                    <p><strong>Sobre:</strong> Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema Solar, atrás apenas de Mercúrio. Batizado em homenagem a divindade romana da guerra, muitas vezes é descrito como o "Planeta Vermelho", porque o óxido de ferro predominante em sua superfície lhe dá uma aparência avermelhada.</p>
+                    <p><strong>Luas:</strong> Fobos, Deimos</p>
+                    <p><strong>Raio:</strong>  3.390 km</p>
+                    <p><strong>Distância do Sol:</strong> 227.900.000 km</p>
+                    <p><strong>Massa:</strong> 6,39 × 10^23 kg</p>
+                    <p><strong>Gravidade:</strong> 3,73 m/s²</p>
+                    <p><strong>Área da superfície:</strong> 144.400.000 km²</p>
+                </div>
+                <div id="pag1">
+                    <h2>Marte</h2>
+                    <p>Marte, o quarto planeta do Sistema Solar, é conhecido como o "Planeta Vermelho" devido à sua superfície rica em óxido de ferro, que lhe dá uma cor avermelhada. Embora seja significativamente menor que a Terra, Marte tem características geológicas que despertam grande interesse científico, especialmente pela possibilidade de ter abrigado ou abrigar vida microbiana.</p>
+                </div>
+                <div id="pag2">
+                    <h2>Superfície e Relevo:</h2>
+                    <p>A superfície de Marte é marcada por vastas planícies, vales profundos, desertos rochosos e crateras de impacto. Um dos destaques é o Monte Olimpo, o maior vulcão do Sistema Solar, com cerca de 21 km de altura. Marte também possui o Vale Marineris, um sistema de cânions que se estende por mais de 4.000 km, muito maior que o Grand Canyon na Terra.</p>
+
+                </div>
+                <div id="pag3">
+                    <h2>Atmosfera:</h2>
+                    <p>A atmosfera de Marte é muito fina, composta principalmente por dióxido de carbono (95%), com traços de nitrogênio e argônio. Ela não oferece proteção significativa contra radiação solar ou impactos de meteoros. Isso, aliado à baixa pressão atmosférica, torna Marte incapaz de sustentar água líquida em sua superfície, embora evidências de água congelada e fluxos de água no passado tenham sido encontradas.</p>
+
+                </div>
+                <div id="pag4">
+                    <h2>Clima e Temperatura:</h2>
+                    <p>Marte é um planeta frio, com temperaturas que podem variar drasticamente entre o dia e a noite. A média é de cerca de -60°C, mas pode chegar a -125°C nos polos e até 20°C em regiões equatoriais durante o verão. O planeta também é conhecido por suas tempestades de poeira gigantes, que podem cobrir a superfície inteira por meses.</p>
+
+                </div>
+                <div id="pag5">
+                    <h2>Água e Gelo:</h2>
+                    <p>Embora Marte seja árido, há evidências de gelo em suas calotas polares, feitas de uma mistura de dióxido de carbono congelado (gelo seco) e água. Recentemente, sondas descobriram vestígios de água congelada no subsolo e possivelmente lagos subterrâneos próximos ao polo sul, indicando que o planeta já teve um clima mais úmido no passado.</p>
+
+                </div>
+                <div id="pag6">
+                    <h2>Exploração e Possibilidade de Vida:</h2>
+                    <p>Marte é o alvo de várias missões espaciais devido à sua semelhança potencial com a Terra primitiva. Sondas, rovers e, mais recentemente, helicópteros como o Perseverance e Ingenuity têm explorado sua superfície. Essas missões procuram sinais de vida passada ou presente, além de estudar a viabilidade de futuras missões tripuladas.</p>
+                    <p>Marte, com suas características desérticas e geológicas, continua a ser um dos planetas mais estudados e promissores para a exploração humana no futuro.</p>
+
+                </div>
+                
+                
+            </div>
+            <div class="navegar">
+                <button onclick="visualizar('Voltar')">&lsaquo; Voltar</button>
+                <button onclick="visualizar('Avançar')">Avançar &rsaquo;</button>
+
+             </div>
+        </section>
 
     </main>
 
     <footer>
 
     </footer>
+    <script>
+        pagMaximo = 6
+    </script>
 </body>
 </html>

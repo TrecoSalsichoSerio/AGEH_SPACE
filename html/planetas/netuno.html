@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="../../css/info.css">
     <title>Netuno</title>
     <link rel="icon" href="../../icon.png">
+    <script src="../../js/info.js"></script>
 </head>
-<body>
+<body page="pag0">
 
     <header>
         <h1>Netuno</h1>
@@ -18,20 +19,59 @@
 
     <main>
         <div class="netuno"></div>
-        <div class="info">
-            <p><strong>Sobre:</strong> Netuno ou Neptuno é o oitavo planeta do Sistema Solar, o último a partir do Sol desde a reclassificação de Plutão para a categoria de planeta anão, em 2006. Pertencente ao grupo dos gigantes gasosos, possui um tamanho ligeiramente menor que o de Urano, mas maior massa, equivalente a 17 massas terrestres.</p>
-            <p><strong>Luas:</strong> Tritão, Talassa, Hipocampo, Nereida, Galateia, Despina, Neso, Náiade, Halimede, Psámata, Laomedeia, Proteu, Larissa, Sao</p>
-            <p><strong>Raio:</strong> 24.622 km</p>
-            <p><strong>Distância do Sol:</strong> 4,495 × 10^9 km</p>
-            <p><strong>Massa:</strong> 1,024 × 10^26 kg</p>
-            <p><strong>Gravidade:</strong> 11,15 m/s²</p>
-            <p><strong>Área da superfície:</strong> 7.618.272.763 km²</p>
-        </div>
+        <section>
+            <div class="info">
+                <div id="pag0">
+                    <p><strong>Sobre:</strong> Netuno ou Neptuno é o oitavo planeta do Sistema Solar, o último a partir do Sol desde a reclassificação de Plutão para a categoria de planeta anão, em 2006. Pertencente ao grupo dos gigantes gasosos, possui um tamanho ligeiramente menor que o de Urano, mas maior massa, equivalente a 17 massas terrestres.</p>
+                    <p><strong>Luas:</strong> Tritão, Talassa, Hipocampo, Nereida, Galateia, Despina, Neso, Náiade, Halimede, Psámata, Laomedeia, Proteu, Larissa, Sao</p>
+                    <p><strong>Raio:</strong> 24.622 km</p>
+                    <p><strong>Distância do Sol:</strong> 4,495 × 10^9 km</p>
+                    <p><strong>Massa:</strong> 1,024 × 10^26 kg</p>
+                    <p><strong>Gravidade:</strong> 11,15 m/s²</p>
+                    <p><strong>Área da superfície:</strong> 7.618.272.763 km²</p>
+                </div>
+                <div id="pag1">
+                    <h2>Netuno</h2>
+                    <p>ue são os mais rápidos do Sistema Solar, atingindo velocidades de até 2.100 km/h. Uma das características mais marcantes da atmosfera de Netuno foi a Grande Mancha Escura, uma tempestade do tamanho da Terra, similar à Grande Mancha Vermelha de Júpiter, embora ela tenha desaparecido desde então.</p>
+
+                </div>
+                <div id="pag2">
+                    <h2>Clima e Temperatura:</h2>
+                    <p>Netuno é um planeta extremamente frio, com temperaturas médias de cerca de -214°C. Mesmo estando tão distante do Sol, Netuno emite mais calor do que recebe, provavelmente devido a processos internos ainda pouco compreendidos. O clima do planeta é dinâmico e constantemente ativo, com tempestades e padrões de ventos intensos que mudam rapidamente.</p>
+
+                </div>
+                <div id="pag3">
+                    <h2>Anéis:</h2>
+                    <p>Netuno possui um sistema de anéis tênues, compostos principalmente de partículas de gelo e poeira. Esses anéis são muito mais fracos e difíceis de observar do que os de Saturno. Existem cinco anéis principais, sendo os mais proeminentes chamados de Adams, Le Verrier e Galle, em homenagem a astrônomos que estudaram o planeta.</p>
+
+                </div>
+                <div id="pag4">
+                    <h2>Luas:</h2>
+                    <p>Netuno tem 14 luas conhecidas, sendo a maior e mais famosa Tritão, que é geologicamente ativa e lança plumas de nitrogênio de sua superfície. Tritão é única por orbitar Netuno em sentido retrógrado, ou seja, na direção oposta à rotação do planeta, o que sugere que ela pode ter sido um objeto do Cinturão de Kuiper capturado pela gravidade de Netuno. As outras luas de Netuno são menores e irregulares, e a maioria delas foi descoberta em missões recentes.</p>
+
+                </div>
+                <div id="pag5">
+                    <h2>Exploração:</h2>
+                    <p>Netuno foi visitado apenas uma vez pela sonda Voyager 2, que passou pelo planeta em 1989. Durante a passagem, a Voyager 2 enviou imagens detalhadas de Netuno e suas luas, revelando a Grande Mancha Escura e capturando dados sobre os anéis e tempestades do planeta. Devido à sua distância, Netuno ainda permanece relativamente inexplorado, e futuras missões poderão desvendar mais mistérios sobre sua composição e dinâmica atmosférica.</p>
+                    <p>Netuno, com seus ventos intensos, tempestades gigantes e mistérios ainda não resolvidos, é um planeta fascinante para o estudo, oferecendo pistas sobre a formação dos gigantes de gelo e a dinâmica dos planetas distantes.</p>
+
+                </div>
+                
+            </div>
+            <div class="navegar">
+                <button onclick="visualizar('Voltar')">&lsaquo; Voltar</button>
+                <button onclick="visualizar('Avançar')">Avançar &rsaquo;</button>
+
+             </div>
+        </section>
 
     </main>
 
     <footer>
 
     </footer>
+    <script>
+        pagMaximo = 5
+    </script>
 </body>
 </html>

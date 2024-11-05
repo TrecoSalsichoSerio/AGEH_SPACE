@@ -11,6 +11,7 @@ body {
     background-color: #1c1919;
     height: 100vh;
     width: 100vw;
+    overflow: auto;
 }
 
 .quests {
@@ -21,8 +22,8 @@ body {
     gap: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    margin-left: 70px;
 }
 
 h2 {
@@ -35,10 +36,14 @@ h2 {
 .questao {
     background-color: rgb(66, 60, 60);
     padding: 1rem;
-    width: 30%;
-    height: 200px;
+    width: 18%;
+    min-height: 250px;
     border-radius: 10px;
     margin-bottom: 35px;
+}
+
+.questao:first-child{
+    margin-left: 80px;
 }
 
 .questao:hover{
@@ -62,10 +67,10 @@ h2 {
     text-transform: uppercase;
     padding: 5px 10px;
     height: 5vh;
-    width: 5%;
+    width: 10%;
     transition: .4s;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 button {
@@ -79,7 +84,6 @@ button {
     text-transform: uppercase;
     padding: 10px 15px;
     height: 5vh;
-    width: 20%;
     transition: .4s;
     margin-left: 864px;
 }
@@ -96,6 +100,9 @@ button:hover {
     background-color: rgba(124, 25, 25, 0.74);
 }
 
-.enviarQuiz{
+#enviarQuiz{
     position: absolute;
+    margin-left: 80%;
+    width: 10%;
+    top: 80cap;
 }

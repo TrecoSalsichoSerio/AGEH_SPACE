@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="../../css/info.css">
     <title>Vênus</title>
     <link rel="icon" href="../../icon.png">
+    <script src="../../js/info.js"></script>
 </head>
-<body>
+<body page="pag0">
 
     <header>
         <h1>Vênus</h1>
@@ -18,20 +19,69 @@
 
     <main>
         <div class="venus"></div>
-        <div class="info">
-            <p><strong>Sobre:</strong> Vénus ou Vênus é o segundo planeta do Sistema Solar em ordem de distância a partir do Sol, orbitando-o a cada 224,7 dias. Recebeu seu nome em homenagem à deusa romana do amor e da beleza Vénus, equivalente a Afrodite.</p>
-            <p><strong>Luas:</strong> Sem luas</p>
-            <p><strong>Raio:</strong> 6.051,8 km</p>
-            <p><strong>Distância do Sol:</strong> 108.200.000 km</p>
-            <p><strong>Massa:</strong> 4,867 × 10^24 kg </p>
-            <p><strong>Gravidade:</strong> 8,87 m/s²</p>
-            <p><strong>Área da superfície:</strong> 460.200.000 km²</p>
-        </div>
+        <section>
+            <div class="info">
+                <div id="pag0">
+                    <p><strong>Sobre:</strong> Vénus ou Vênus é o segundo planeta do Sistema Solar em ordem de distância a partir do Sol, orbitando-o a cada 224,7 dias. Recebeu seu nome em homenagem à deusa romana do amor e da beleza Vénus, equivalente a Afrodite.</p>
+                    <p><strong>Luas:</strong> Sem luas</p>
+                    <p><strong>Raio:</strong> 6.051,8 km</p>
+                    <p><strong>Distância do Sol:</strong> 108.200.000 km</p>
+                    <p><strong>Massa:</strong> 4,867 × 10^24 kg </p>
+                    <p><strong>Gravidade:</strong> 8,87 m/s²</p>
+                    <p><strong>Área da superfície:</strong> 460.200.000 km²</p>
+                </div>
+                <div id="pag1">
+                    <h2>Vênus</h2>
+                    <p>Vênus, o segundo planeta mais próximo do Sol, é frequentemente chamado de "planeta irmão" da Terra devido ao seu tamanho e composição semelhantes. No entanto, Vênus tem condições extremamente hostis, com uma atmosfera densa e tóxica, temperaturas escaldantes e pressão atmosférica intensa, tornando-o um dos planetas mais inóspitos do Sistema Solar.</p>
+
+                </div>
+                <div id="pag2">
+                    <h2>Superfície e Relevo:</h2>
+                    <p>A superfície de Vênus é escondida por uma densa camada de nuvens, mas foi mapeada com a ajuda de radares, revelando uma paisagem cheia de vulcões, planícies de lava e montanhas. A característica mais notável é o vulcão Maat Mons, um dos maiores do Sistema Solar. Vênus também possui vastas planícies chamadas tesselas, que são formações geológicas complexas, criadas por atividades tectônicas e vulcânicas.</p>
+
+                </div>
+                <div id="pag3">
+                    <h2>Atmosfera:</h2>
+                    <p>A atmosfera de Vênus é composta predominantemente por dióxido de carbono (96,5%) e traços de nitrogênio e outros gases. Ela é extremamente densa, criando uma pressão atmosférica na superfície 90 vezes maior que a da Terra, equivalente à pressão encontrada a 900 metros abaixo do nível do mar. A atmosfera também contém nuvens espessas de ácido sulfúrico, que refletem a maior parte da luz solar, fazendo com que o planeta brilhe intensamente no céu noturno.</p>
+
+                </div>
+                <div id="pag4">
+                    <h2>Clima e Temperatura:</h2>
+                    <p>Vênus é o planeta mais quente do Sistema Solar, com temperaturas médias na superfície em torno de 465°C, mais altas até que Mercúrio, apesar de estar mais distante do Sol. Isso ocorre devido ao efeito estufa descontrolado: a atmosfera densa aprisiona o calor do Sol, resultando em temperaturas extremas. Vênus também apresenta ventos fortíssimos nas camadas superiores da atmosfera, com velocidades de até 360 km/h, enquanto na superfície os ventos são muito mais fracos.</p>
+
+                </div>
+                <div id="pag5">
+                    <h2>Rotação e Órbita:</h2>
+                    <p>Vênus tem uma rotação extremamente lenta e incomum. Ele gira em sentido oposto ao de muitos planetas, incluindo a Terra, o que significa que o Sol nasce no oeste e se põe no leste. Um dia em Vênus (uma rotação completa) leva 243 dias terrestres, enquanto sua órbita em torno do Sol dura 225 dias terrestres. Assim, um dia em Vênus é mais longo que um ano.</p>
+                    
+                </div>
+                <div id="pag6">
+                    <h2>Exploração:</h2>
+                    <p>Vênus foi um dos primeiros planetas a ser explorado por sondas espaciais. Missões soviéticas como as Venera pousaram na superfície nos anos 1970 e 1980, enviando as primeiras e únicas imagens diretas do solo de Vênus. A sonda Magellan da NASA, lançada em 1989, mapeou a superfície com radar, revelando detalhes sobre sua geologia. Mais recentemente, as missões Akatsuki e futuras missões planejadas pela NASA e pela ESA, como a VERITAS e a EnVision, têm como objetivo estudar a atmosfera e a geologia de Vênus.</p>
+
+                </div>
+                <div id="pag7">
+                    <h2>Possibilidade de Vida:</h2>
+                    <p>Devido às condições extremas na superfície, é improvável que exista vida em Vênus. No entanto, em 2020, cientistas detectaram fosfina nas camadas superiores da atmosfera, um possível indicador de atividade biológica, embora essa descoberta ainda esteja em debate e mais pesquisas sejam necessárias.</p>
+                    <p>Vênus, com sua atmosfera espessa, temperaturas extremas e vulcões, é um planeta fascinante e misterioso, oferecendo importantes lições sobre o efeito estufa e a evolução planetária.</p>
+
+                </div>
+                
+            </div>
+            <div class="navegar">
+                <button onclick="visualizar('Voltar')">&lsaquo; Voltar</button>
+                <button onclick="visualizar('Avançar')">Avançar &rsaquo;</button>
+
+             </div>
+        </section>
 
     </main>
 
     <footer>
 
     </footer>
+    <script>
+        pagMaximo = 7
+    </script>
 </body>
 </html>
