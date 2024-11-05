@@ -215,12 +215,6 @@ body {
 .view-2D .moon {
   transform: rotateX(90deg); }
 
-.view-3D.zoom-large #sun {
-  transform-style: preserve-3d; }
-
-.view-3D.zoom-large .orbit {
-  transform-style: preserve-3d; }
-
 .view-3D #solar-system {
   transform: rotateX(75deg); }
 
@@ -233,75 +227,6 @@ body {
 .view-3D .planet,
 .view-3D .moon {
   transform: rotateX(0deg); }
-
-.zoom-large #solar-system {
-  width: 100%; }
-
-.zoom-large.view-2D .scale-stretched #solar-system {
-  font-size: 26%; }
-
-.zoom-large.view-3D .scale-stretched #solar-system {
-  font-size: 62%; }
-
-.zoom-large.view-2D .scale-d #solar-system {
-  font-size: 22%; }
-
-.zoom-large.view-3D .scale-d #solar-system {
-  font-size: 48%; }
-
-.zoom-large.view-2D .scale-s #solar-system {
-  font-size: 7%; }
-
-.zoom-large.view-3D .scale-s #solar-system {
-  font-size: 14%; }
-
-.zoom-close #solar-system {
-  width: 200%;
-  font-size: 100%; }
-
-.zoom-close .scale-stretched #solar-system {
-  margin-left: -100%; }
-
-.zoom-close .scale-d #solar-system {
-  margin-left: -106%; }
-
-.zoom-close.view-2D .scale-d #solar-system {
-  font-size: 84%; }
-
-.zoom-close.view-3D .scale-d #solar-system {
-  font-size: 84%; }
-
-.zoom-close .scale-s #solar-system {
-  margin-left: -145%; }
-
-.zoom-close.view-2D .scale-s #solar-system {
-  font-size: 40%; }
-
-.zoom-close.view-3D .scale-s #solar-system {
-  font-size: 40%; }
-
-.zoom-close .orbit,
-.zoom-close .pos,
-.zoom-close .planet,
-.zoom-close .satelite,
-.zoom-close .ring {
-  animation-play-state: paused!important;
-  animation-duration: 0s!important;
-  animation: none!important; }
-
-.zoom-close.view-2D .planet,
-.zoom-close.view-2D .moon {
-  transform: rotateX(0deg); }
-
-.zoom-close.view-3D .planet {
-  transform: rotateX(-90deg); }
-
-.zoom-close.view-3D .moon {
-  transform: rotateX(90deg); }
-
-.zoom-close .pos {
-  left: 100%!important;
-  top: 50%!important; }
 
 #mercury .pos,
 #mercury .planet,
