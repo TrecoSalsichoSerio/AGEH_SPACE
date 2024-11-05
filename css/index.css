@@ -32,11 +32,46 @@ table {
   box-sizing: border-box;
   box-sizing: border-box; }
 
-body {
-  font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  background-color: #08090A; }
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+#titulo {
+    position: absolute; /* Ou 'fixed' se preferir que fique sempre visível */
+    top: 20px; /* Distância do topo */
+    left: 125px; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Compensa a largura do título para centralizar */
+    color: white; /* Ou qualquer cor que preferir */
+    font-size: 2em; /* Ajuste o tamanho da fonte conforme necessário */
+    z-index: 10; /* Certifique-se de que o título fique acima de outros elementos */
+}
+
+#titulo h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#titulo button, a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#titulo a{
+    font-size: 0.8em;
+}
+
+#titulo button{
+    font-size: 0.8em;
+}
 
 #universe {
   z-index: 1;
@@ -932,7 +967,6 @@ body {
 
 #controls{
   background: rgba(0, 0, 0, 0.4); 
-  margin-right: 50px;
   padding: 5px;
   font-size: 30px;}
 
@@ -1196,7 +1230,7 @@ body {
     top: 12px; }
 
   .controls-open #controls, .controls-close #controls {
-    right: 0px; } }
+    right: 30px; } }
 @media screen and (min-width: 1300px) {
   #universe {
     font-size: 100%; } }
