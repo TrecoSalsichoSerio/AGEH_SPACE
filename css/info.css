@@ -91,7 +91,7 @@ section{
 .info{
     width: 32%;
     height: 350px;
-    padding: 5%;
+    padding: 2%;
     border: 5px solid #ffffff;
     display: inline-block;
     overflow: auto;
@@ -108,6 +108,10 @@ section{
     color: #ffffff;
     font-size: 1em;
     padding: 10px;
+}
+
+.satu{
+    width: 50%;
 }
 
 strong{

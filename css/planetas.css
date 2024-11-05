@@ -87,21 +87,20 @@ body {
     border-radius: 50%;
 }
 
-/* Planeta Saturno */
 .outer-container {
-    display: flex; /* Habilita flexbox */
-    flex-direction: row; /* Organiza os elementos em coluna */
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
 }
 
 .inner-container {
-    display: flex; /* Habilita flexbox no contêiner interno */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    position: relative; /* Para os anéis se posicionarem corretamente */
-    margin: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10% 15%;
 }
 
 .saturno {
