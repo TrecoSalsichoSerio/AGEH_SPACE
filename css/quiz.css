@@ -106,3 +106,47 @@ button:hover {
     width: 10%;
     top: 80cap;
 }
+
+.alertContainer {
+    width: 95%;
+    padding: 80px;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alertContainer p {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  .certo {
+    background-color: #aaa;
+  }
+  .erro {
+    background-color: #c72525;
+  }
+
+  .erro:hover {
+    background-color: #c72525;
+  }
+
+  .spanAlerts {
+    /* background-color: black; */
+    width: 40%;
+    position: absolute;
+    z-index: 5;
+    top: 50%; /* Move para o meio verticalmente */
+    left: 50%; /* Move para o meio horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para o centro do elemento */
+}
+
+.hulk {
+    background-color: green;
+}
+
+.hulk:hover {
+    background-color: green;
+}

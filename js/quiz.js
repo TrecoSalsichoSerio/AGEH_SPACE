@@ -217,8 +217,11 @@ const questoes = [
 window.addEventListener("DOMContentLoaded", ()=>{
 
     let contador = 1
+    let questoes_embaralhadas = questoes.sort(()=> {
+        return Math.random() - 0.5
+    })
 
-    questoes.forEach(questao=>{
+    questoes_embaralhadas.forEach(questao=>{
         const div_questao = document.createElement('div')
         div_questao.classList.add('questao')
 
@@ -227,7 +230,11 @@ window.addEventListener("DOMContentLoaded", ()=>{
 
         div_questao.appendChild(p_texto)
 
-        questao.alternativas.forEach(alternativa=>{
+        let alternativas_embaralhadas = questao.alternativas.sort(()=> {
+            return Math.random() - 0.5
+        })
+
+        alternativas_embaralhadas.forEach(alternativa=>{
             const label = document.createElement('label')
             label.classList.add('mabel')
 
@@ -246,13 +253,6 @@ window.addEventListener("DOMContentLoaded", ()=>{
         document.querySelector(".quests").append(div_questao)
         console.log(div_questao)
     })
-
-
-
-
-
-
-
 
         
     document.getElementById("enviarQuiz").addEventListener("click", verificarRespostas);
@@ -277,60 +277,47 @@ function verificarRespostas(){
     }
     let pontos = 0;
 
-    //vereficar pergunta 1
-    const q1 = document.querySelector('input[name="q1"]:checked');
-    if (q1) {
-        pontos += parseInt(q1.value);
-    }
+    const inputSelecionados = document.querySelectorAll('input:checked')
+    inputSelecionados.forEach((input)=> {
+        pontos += Number(input.value) 
+        let class_input = input.value == "0"? "erro": "hulk"
+        input.parentElement.parentElement.classList.add(class_input)
+    })
+    
+    new alertUser(`Você marcou: ${pontos} pontos.`, "certo")
 
-    //vereficar pergunta 2
-    const q2 = document.querySelector('input[name="q2"]:checked');
-    if (q2) {
-        pontos += parseInt(q2.value);
-    }
-
-    //vereficar pergunta 3
-    const q3 = document.querySelector('input[name="q3"]:checked');
-    if (q3) {
-        pontos += parseInt(q3.value);
-    }
-
-    const q4 = document.querySelector('input[name="q4"]:checked');
-    if (q4) {
-        pontos += parseInt(q4.value);
-    }
-
-    const q5 = document.querySelector('input[name="q5"]:checked');
-    if (q5) {
-        pontos += parseInt(q5.value);
-    }
-
-    const q6 = document.querySelector('input[name="q6"]:checked');
-    if (q6) {
-        pontos += parseInt(q6.value);
-    }
-
-    const q7 = document.querySelector('input[name="q7"]:checked');
-    if (q7) {
-        pontos += parseInt(q7.value);
-    }
-
-    const q8 = document.querySelector('input[name="q8"]:checked');
-    if (q8) {
-        pontos += parseInt(q8.value);
-    }
-
-    const q9 = document.querySelector('input[name="q9"]:checked');
-    if (q9) {
-        pontos += parseInt(q9.value);
-    }
-
-    const q10 = document.querySelector('input[name="q10"]:checked');
-    if (q3) {
-        pontos += parseInt(q10.value);
-    }
-
-    window.location.href = `../html/resultado.html?pontos=${pontos}`;
 }
 
-   
+   class alertUser {
+  constructor(text, cssClass) {
+    this.text = text;
+    this.cssClass = cssClass;
+    this.father = document.querySelector(".spanAlerts");
+    this.element = this.contructItself();
+    this.addElementToDoc();
+    const destruct = () => {
+        this.destructItself();
+        setTimeout(()=>{
+            window.removeEventListener("click", destruct)
+        }, 100)
+    }
+    setTimeout(()=>{
+        window.addEventListener("click", destruct)
+    }, 1000)
+  }
+  contructItself() {
+    const div = document.createElement("div");
+    const p = document.createElement("p");
+    p.innerHTML = this.text;
+    div.classList.add("alertContainer");
+    div.classList.add(this.cssClass);
+    div.appendChild(p);
+    return div;
+  }
+  addElementToDoc() {
+    this.father.appendChild(this.element);
+  }
+  destructItself() {
+    this.father.removeChild(this.element);
+  }
+}
