@@ -1,10 +1,52 @@
-// MONTAGEM DAS QUESTOES
+// MONTAGEM DAS QUESTOES : Nível 1 fácil
 const questoes = [
     {
-        title: "Qual o planeta mais distante do Sol?",
+        title: "Qual é o nome do nosso planeta?",
         alternativas: [
             {
-                name: "Plutão",
+                name: "Marte",
+                value: "0"
+            },
+            {
+                name: "Terra",
+                value: "1"
+            },
+            {
+                name: "Venus",
+                value: "0"
+            },
+            {
+                name: "Júpter",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "Qual é o maior planeta do Sistema Solar?",
+        alternativas: [
+            {
+                name: "Saturno",
+                value: "0"
+            },
+            {
+                name: "Terra",
+                value: "0"
+            },
+            { 
+                name: "Júpter",
+                value: "1"
+            },
+            {
+                name: "Urano",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "Em que planeta a Terra gira ao redor?",
+        alternativas: [
+            {
+                name: "Marte",
                 value: "0"
             },
             {
@@ -12,106 +54,39 @@ const questoes = [
                 value: "0"
             },
             {
-                name: "Marte",
+                name: "Júpter",
                 value: "0"
             },
             {
-                name: "Netuno",
+                name: "Sol",
                 value: "1"
             },  
         ]
     },
     {
-        title: "Qual planeta foi rebaixado a anão?",
+        title: "O que é a Lua para a Terra?",
         alternativas: [
             {
-                name: "Plutão",
+                name: "Um planeta",
+                value: "0"
+            },
+            {
+                name: "Um cometa",
+                value: "0"
+            },
+            {
+                name: "Um satélite",
                 value: "1"
             },
             {
-                name: "Saturno",
-                value: "0"
-            },
-            { 
-                name: "Jupter",
-                value: "0"
-            },
-            {
-                name: " Terra",
+                name: "Uma estrela",
                 value: "0"
             },  
         ]
     },
     {
-        title: "Qual a temperatura aproximada da superfície do Sol?",
+        title: "Quantos planetas existem no Sistema Solar?",
         alternativas: [
-            {
-                name: "6700 °C",
-                value: "0"
-            },
-            {
-                name: "9800 °C",
-                value: "0"
-            },
-            {
-                name: "5500 °C",
-                value: "1"
-            },
-            {
-                name: "2100 °C",
-                value: "0"
-            },  
-        ]
-    },
-    {
-        title: "Qual o menor planeta do noso sistema solar?",
-        alternativas: [
-            {
-                name: "Urano",
-                value: "0"
-            },
-            {
-                name: "Venus",
-                value: "0"
-            },
-            {
-                name: "Mercúrio",
-                value: "1"
-            },
-            {
-                name: "Marte",
-                value: "0"
-            },  
-        ]
-    },
-    {
-        title: "Qual são os dois principais componentes químicos do Sol?",
-        alternativas: [
-            {
-                name: "Hélio e Hidrogênio",
-                value: "1"
-            },
-            {
-                name: "Ferro e Níquel",
-                value: "0"
-            },
-            {
-                name: "Gás Carbônico e Hidrogênio",
-                value: "0"
-            },
-            {
-                name: "Oxigênio e Níquel",
-                value: "0"
-            },  
-        ]
-    },
-    {
-        title: "Quantos planetas, atualmente, tem no sistema Solar?",
-        alternativas: [
-            {
-                name: "10",
-                value: "0"
-            },
             {
                 name: "8",
                 value: "1"
@@ -123,56 +98,85 @@ const questoes = [
             {
                 name: "7",
                 value: "0"
+            },
+            {
+                name: "6",
+                value: "0"
             },  
         ]
     },
     {
-        title: "Quantas luas tem Saturno?",
+        title: "Qual planeta é conhecido como o 'planeta vermelho'?",
         alternativas: [
             {
-                name: "112",
+                name: "Vênus",
                 value: "0"
             },
             {
-                name: "236",
-                value: "0"
-            },
-            {
-                name: "50",
-                value: "0"
-            },
-            {
-                name: "145",
-                value: "1"
-            },  
-        ]
-    },
-    {
-        title: "Qual o nome dos dois satélites de Marte?",
-        alternativas: [
-            {
-                name: "Ganimedes e Fobos",
-                value: "0"
-            },
-            {
-                name: "Deimos e Ganimedes",
-                value: "0"
-            },
-            {
-                name: "Fobos e Deimos",
+                name: "Marte",
                 value: "1"
             },
             {
-                name: "Fobos e Titãn    ",
+                name: "Saturno",
                 value: "0"
-            },  
-        ]
-    },
-    {
-        title: "Qual o planeta mais próximo do sol?",
-        alternativas: [
+            },
             {
                 name: "Mercúrio",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "Qual é o nome do nosso satélite natural?",
+        alternativas: [
+            {
+                name: "fobos",
+                value: "0"
+            },
+            {
+                name: "Titã",
+                value: "0"
+            },
+            {
+                name: "Lua",
+                value: "1"
+            },
+            {
+                name: "Ío",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "O que o Sol é para o Sistema Solar?",
+        alternativas: [
+            {
+                name: "Uma estrela",
+                value: "1"
+            },
+            {
+                name: "Um planeta",
+                value: "0"
+            },
+            {
+                name: "Um satélite",
+                value: "0"
+            },
+            {
+                name: "Um cometa",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "Em que planeta chove diamantes (segundo os cientistas)?",
+        alternativas: [
+            {
+                name: "Júpter",
+                value: "0"
+            },
+            {
+                name: "Netuno",
                 value: "1"
             },
             {
@@ -180,7 +184,90 @@ const questoes = [
                 value: "0"
             },
             {
+                name: "Saturno",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "Qual é o nome do planeta mais próximo do Sol?",
+        alternativas: [
+            {
+                name: "Vênus",
+                value: "0"
+            },
+            {
+                name: "Terra",
+                value: "0"
+            },
+            {
+                name: "Mercúrio",
+                value: "1"
+            },
+            {
                 name: "Marte",
+                value: "0"
+            },  
+        ]
+    },
+
+    //Nível 2 médio
+
+    {
+        title: "Qual planeta é conhecido por ter anéis visíveis ao redor dele?",
+        alternativas: [
+            {
+                name: "Saturno",
+                value: "1"
+            },
+            {
+                name: "Urano",
+                value: "0"
+            },
+            {
+                name: "Marte",
+                value: "0"
+            },
+            {
+                name: "Júpter",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "O que é a 'zona habitável' no Sistema Solar?",
+        alternativas: [
+            {
+                name: "A área onde os planetas gasosos estão localizados",
+                value: "0"
+            },
+            {
+                name: "A região onde a água líquida pode existir",
+                value: "1"
+            },
+            {
+                name: "A área entre os anéis de Saturno",
+                value: "0"
+            },
+            {
+                name: "A região onde há atividade vulcânica",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "Qual é o planeta mais distante do Sol?",
+        alternativas: [
+            {
+                name: "Netuno",
+                value: "1"
+            },
+            {
+                name: "Urano",
+                value: "0"
+            },
+            {
+                name: "Plutão",
                 value: "0"
             },
             {
@@ -190,10 +277,290 @@ const questoes = [
         ]
     },
     {
-        title: "Qual o maior planeta do sistema solar?",
+        title: "Quais são os dois planetas gasosos conhecidos como gigantes gasosos?",
         alternativas: [
             {
-                name: "Terra",
+                name: "Jupter e Saturno",
+                value: "1"
+            },
+            {
+                name: "Marte e Vênus",
+                value: "0"
+            },
+            {
+                name: "Terra e Urano",
+                value: "0"
+            },
+            {
+                name: "Júpter e Netuno",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "Qual é a principal característica da atmosfera de Vênus?",
+        alternativas: [
+            {
+                name: "Presença de oxigênio",
+                value: "0"
+            },
+            {
+                name: "Camada espessa de nuvens ácidas",
+                value: "1"
+            },
+            {
+                name: "Composta principalmente de nitrogênio",
+                value: "0"
+            },
+            {
+                name: "Alta concentração de dióxido de carbono",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "Qual é a temperatura média da superfície de Mercúrio?",
+        alternativas: [
+            {
+                name: "100°C",
+                value: "0"
+            },
+            {
+                name: "500°C",
+                value: "1"
+            },
+            {
+                name: "150°C",
+                value: "0"
+            },
+            {
+                name: "250°C",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "Qual planeta tem a maior lua do Sistema Solar?",
+        alternativas: [
+            {
+                name: "Júpter",
+                value: "1"
+            },
+            {
+                name: "Saturno",
+                value: "0"
+            },
+            {
+                name: "Netuno",
+                value: "0"
+            },
+            {
+                name: "Urano",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "O que é o cinturão de asteroides e onde ele está localizado?",
+        alternativas: [
+            {
+                name: "Uma região entre Marte e Júpiter",
+                value: "1"
+            },
+            {
+                name: "Uma região entre Vênus e Terra",
+                value: "0"
+            },
+            {
+                name: "Uma região próxima a Netuno",
+                value: "0"
+            },
+            {
+                name: "Uma região fora de Plutão",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "Quais planetas no Sistema Solar têm luas?",
+        alternativas: [
+            {
+                name: "Terra e Marte",
+                value: "0"
+            },
+            {
+                name: "Jupter e Saturno",
+                value: "0"
+            },
+            {
+                name: "Mercúrio e Vênus",
+                value: "0"
+            },
+            {
+                name: "Todos os planetas exceto Mercúrio e Vênus",
+                value: "1"
+            },  
+        ]
+    },
+    {
+        title: "Qual é a principal diferença entre um planeta rochoso e um gigante gasoso?",
+        alternativas: [
+            {
+                name: "A cor do planeta",
+                value: "0"
+            },
+            {
+                name: "A temperatura da superfície",
+                value: "0"
+            },
+            {
+                name: "A composição do interior",
+                value: "1"
+            },
+            {
+                name: "A presença de anéis",
+                value: "0"
+            },  
+        ]
+    },
+
+    // NÍVEL 3 DIFÍCIL
+
+    {
+        title: "O que é a exosfera, e qual planeta tem essa camada atmosférica mais pronunciada?",
+        alternativas: [
+            {
+                name: "Camada externa da atmosfera, presente principalmente em Júpiter",
+                value: "0"
+            },
+            {
+                name: "Camada externa da atmosfera, mais pronunciada em Saturno",
+                value: "0"
+            },
+            {
+                name: "Camada externa da atmosfera, mais pronunciada em Vênus",
+                value: "0"
+            },
+            {
+                name: "Camada externa da atmosfera, mais pronunciada em Mercúrio",
+                value: "1"
+            },  
+        ]
+    },
+    {
+        title: "Qual é a principal razão para Plutão ter sido reclassificado como 'planeta anão' em 2006?",
+        alternativas: [
+            {
+                name: "Plutão não tem satélites",
+                value: "0"
+            },
+            {
+                name: "Plutão não orbita diretamente ao redor do Sol",
+                value: "0"
+            },
+            {
+                name: "Plutão não conseguiu limpar sua órbita de outros objetos",
+                value: "1"
+            },
+            {
+                name: "Plutão não possui atmosfera",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "Qual é a composição principal dos anéis de Saturno?",
+        alternativas: [
+            {
+                name: "Gelo e Rochas",
+                value: "1"
+            },
+            {
+                name: "Poeira e Gás",
+                value: "0"
+            },
+            {
+                name: "Fumaça e Vapor",
+                value: "0"
+            },
+            {
+                name: "Apenas Rochas",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "Qual é o nome do fenômeno que ocorre quando um planeta parece 'voltar' em seu caminho no céu (movimento retrógrado)?",
+        alternativas: [
+            {
+                name: "Eclipse",
+                value: "0"
+            },
+            {
+                name: "Retrocesso Planetário",
+                value: "0"
+            },
+            {
+                name: "Movimento retrógrado",
+                value: "1"
+            },
+            {
+                name: "Reversão orbital",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "Quais são os principais componentes da atmosfera de Júpiter?",
+        alternativas: [
+            {
+                name: "Nitrogênio e oxigênio",
+                value: "0"
+            },
+            {
+                name: "Hidrogênio e hélio",
+                value: "1"
+            },
+            {
+                name: "Metano e dióxido de carbono",
+                value: "0"
+            },
+            {
+                name: "Água e amônia",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "O que é a Grande Mancha Vermelha em Júpiter?",
+        alternativas: [
+            {
+                name: "Uma tempestade permanente",
+                value: "1"
+            },
+            {
+                name: "Uma cratera formada por meteoritos",
+                value: "0"
+            },
+            {
+                name: "Uma área de atividade vulcânica",
+                value: "0"
+            },
+            {
+                name: "Uma região de baixa pressão",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "Qual planeta tem a maior inclinação axial do Sistema Solar, resultando em um eixo de rotação muito inclinado?",
+        alternativas: [
+            {
+                name: "Urano",
+                value: "1"
+            },
+            {
+                name: "Vênus",
                 value: "0"
             },
             {
@@ -201,15 +568,75 @@ const questoes = [
                 value: "0"
             },
             {
-                name: "Júpter",
-                value: "1"
-            },
-            {
-                name: "Marte",
+                name: "Netuno",
                 value: "0"
             },  
         ]
     },
+    {
+        title: "Qual é o nome do maior vulcão do Sistema Solar e onde ele está localizado?",
+        alternativas: [
+            {
+                name: "Monte Etna, na Terra",
+                value: "0"
+            },
+            {
+                name: "Olympus Mons, em Marte",
+                value: "1"
+            },
+            {
+                name: "Mauna Loa, na Terra",
+                value: "0"
+            },
+            {
+                name: "Vulcão de Io, em Júpiter",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "O que são os 'cometas de longo período' e como eles se distinguem dos cometas de curto período?",
+        alternativas: [
+            {
+                name: "Cometas de longo período têm órbitas mais longas e menos previsíveis",
+                value: "1"
+            },
+            {
+                name: "Cometas de longo período orbitam dentro da zona habitável",
+                value: "0"
+            },
+            {
+                name: "Cometas de longo período nunca voltam ao Sistema Solar",
+                value: "0"
+            },
+            {
+                name: "Cometas de longo período não têm cauda",
+                value: "0"
+            },  
+        ]
+    },
+    {
+        title: "Como as auroras boreais e austrais se formam e em que planetas do Sistema Solar fenômenos semelhantes podem ocorrer?",
+        alternativas: [
+            {
+                name: "Quando partículas solares interagem com a atmosfera, podendo ocorrer em Júpiter e Saturno",
+                value: "1"
+            },
+            {
+                name: "Quando a luz do Sol é refletida pelos anéis de Saturno",
+                value: "0"
+            },
+            {
+                name: "Quando a Lua reflete a luz do Sol sobre os polos",
+                value: "0"
+            },
+            {
+                name: "Quando meteoros entram na atmosfera de Vênus",
+                value: "0"
+            },  
+        ]
+    },
+
 ]
 
 
