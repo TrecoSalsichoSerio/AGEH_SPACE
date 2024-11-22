@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/reset.css">
-    <link rel="stylesheet" href="../../css/planetas.css">
+    <!-- <link rel="stylesheet" href="../../css/planetas.css"> -->
     <link rel="stylesheet" href="../../css/info.css">
     <title>Netuno</title>
     <link rel="icon" href="../../icon.png">
@@ -14,11 +14,11 @@
 
     <header>
         <h1>Netuno</h1>
-        <a href="../sistema2d.html"><button><< Voltar</button></a>
+        <a href="../sistema2d.html"><button>&laquo; Voltar</button></a>
     </header>
 
     <main>
-        <div class="netuno"></div>
+        <model-viewer src="../../objeto/terra.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="0" exposure="0.4" shadow-softness="0"> </model-viewer>
         <section>
             <div class="info">
                 <div id="pag0">
@@ -71,6 +71,7 @@
     <footer>
 
     </footer>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
     <script>
         pagMaximo = 5
     </script>

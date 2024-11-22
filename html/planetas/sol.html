@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/reset.css">
-    <link rel="stylesheet" href="../../css/planetas.css">
+    <!-- <link rel="stylesheet" href="../../css/planetas.css"> -->
     <link rel="stylesheet" href="../../css/info.css">
     <title>Sol</title>
     <link rel="icon" href="../../icon.png">
@@ -13,11 +13,11 @@
 
     <header>
         <h1>Sol</h1>
-        <a href="../sistema2d.html"><button><< Voltar</button></a>
+        <a href="../sistema2d.html"><button>&laquo; Voltar</button></a>
     </header>
 
     <main>
-        <div class="sol"></div>
+        <model-viewer src="../../objeto/terra.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="0" exposure="0.4" shadow-softness="0"> </model-viewer>
         <div class="info">
             <p><strong>Sobre:</strong> O Sol é a estrela central do Sistema Solar. Todos os outros corpos do Sistema Solar, como planetas, planetas anões, asteroides, cometas e poeira, bem como todos os satélites associados a estes corpos, giram ao seu redor.</p>
             <p><strong>Raio:</strong> 696.340 km</p>
@@ -32,5 +32,6 @@
     <footer>
 
     </footer>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
 </body>
 </html>
