@@ -262,13 +262,3 @@ img {
     border-radius: 50%;
     z-index: -1;
 }
-
-.quizButton{
-    text-align: center;
-    color: white;
-    padding: 5%;
-    text-decoration: none;
-    display: block;
-    border: #ffffff solid 1px;
-    margin: 90% 90% 0 0;
-}
