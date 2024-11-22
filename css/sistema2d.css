@@ -263,7 +263,7 @@ img {
     z-index: -1;
 }
 
-#quiz{
+.quizButton{
     text-align: center;
     color: white;
     padding: 5%;
