@@ -1,7 +1,8 @@
-// MONTAGEM DAS QUESTOES : Nível 1 fácil
+// MONTAGEM DAS QUESTOES : Nível 1 Fácil
 const questoes = [
     {
         title: "Qual é o nome do nosso planeta?",
+        level: "Fácil",
         alternativas: [
             {
                 name: "Marte",
@@ -23,6 +24,7 @@ const questoes = [
     },
     {
         title: "Qual é o maior planeta do Sistema Solar?",
+        level: "Fácil",
         alternativas: [
             {
                 name: "Saturno",
@@ -44,6 +46,7 @@ const questoes = [
     },
     {
         title: "Em que planeta a Terra gira ao redor?",
+        level: "Fácil",
         alternativas: [
             {
                 name: "Marte",
@@ -65,6 +68,7 @@ const questoes = [
     },
     {
         title: "O que é a Lua para a Terra?",
+        level: "Fácil",
         alternativas: [
             {
                 name: "Um planeta",
@@ -86,6 +90,7 @@ const questoes = [
     },
     {
         title: "Quantos planetas existem no Sistema Solar?",
+        level: "Fácil",
         alternativas: [
             {
                 name: "8",
@@ -107,6 +112,7 @@ const questoes = [
     },
     {
         title: "Qual planeta é conhecido como o 'planeta vermelho'?",
+        level: "Fácil",
         alternativas: [
             {
                 name: "Vênus",
@@ -128,6 +134,7 @@ const questoes = [
     },
     {
         title: "Qual é o nome do nosso satélite natural?",
+        level: "Fácil",
         alternativas: [
             {
                 name: "fobos",
@@ -149,6 +156,7 @@ const questoes = [
     },
     {
         title: "O que o Sol é para o Sistema Solar?",
+        level: "Fácil",
         alternativas: [
             {
                 name: "Uma estrela",
@@ -170,6 +178,7 @@ const questoes = [
     },
     {
         title: "Em que planeta chove diamantes (segundo os cientistas)?",
+        level: "Fácil",
         alternativas: [
             {
                 name: "Júpter",
@@ -191,6 +200,7 @@ const questoes = [
     },
     {
         title: "Qual é o nome do planeta mais próximo do Sol?",
+        level: "Fácil",
         alternativas: [
             {
                 name: "Vênus",
@@ -215,6 +225,7 @@ const questoes = [
 
     {
         title: "Qual planeta é conhecido por ter anéis visíveis ao redor dele?",
+        level: "médio",
         alternativas: [
             {
                 name: "Saturno",
@@ -236,6 +247,7 @@ const questoes = [
     },
     {
         title: "O que é a 'zona habitável' no Sistema Solar?",
+        level: "médio",
         alternativas: [
             {
                 name: "A área onde os planetas gasosos estão localizados",
@@ -257,6 +269,7 @@ const questoes = [
     },
     {
         title: "Qual é o planeta mais distante do Sol?",
+        level: "médio",
         alternativas: [
             {
                 name: "Netuno",
@@ -278,6 +291,7 @@ const questoes = [
     },
     {
         title: "Quais são os dois planetas gasosos conhecidos como gigantes gasosos?",
+        level: "médio",
         alternativas: [
             {
                 name: "Jupter e Saturno",
@@ -299,6 +313,7 @@ const questoes = [
     },
     {
         title: "Qual é a principal característica da atmosfera de Vênus?",
+        level: "médio",
         alternativas: [
             {
                 name: "Presença de oxigênio",
@@ -320,6 +335,7 @@ const questoes = [
     },
     {
         title: "Qual é a temperatura média da superfície de Mercúrio?",
+        level: "médio",
         alternativas: [
             {
                 name: "100°C",
@@ -341,6 +357,7 @@ const questoes = [
     },
     {
         title: "Qual planeta tem a maior lua do Sistema Solar?",
+        level: "médio",
         alternativas: [
             {
                 name: "Júpter",
@@ -362,6 +379,7 @@ const questoes = [
     },
     {
         title: "O que é o cinturão de asteroides e onde ele está localizado?",
+        level: "médio",
         alternativas: [
             {
                 name: "Uma região entre Marte e Júpiter",
@@ -383,6 +401,7 @@ const questoes = [
     },
     {
         title: "Quais planetas no Sistema Solar têm luas?",
+        level: "médio",
         alternativas: [
             {
                 name: "Terra e Marte",
@@ -404,6 +423,7 @@ const questoes = [
     },
     {
         title: "Qual é a principal diferença entre um planeta rochoso e um gigante gasoso?",
+        level: "médio",
         alternativas: [
             {
                 name: "A cor do planeta",
@@ -427,28 +447,30 @@ const questoes = [
     // NÍVEL 3 DIFÍCIL
 
     {
-        title: "O que é a exosfera, e qual planeta tem essa camada atmosférica mais pronunciada?",
+        title: "Em qual planeta a camada externa da atmosfera é mais pronunciada?",
+        level: "Difícil",
         alternativas: [
             {
-                name: "Camada externa da atmosfera, presente principalmente em Júpiter",
+                name: "Presente principalmente em Júpiter",
                 value: "0"
             },
             {
-                name: "Camada externa da atmosfera, mais pronunciada em Saturno",
+                name: "Mais pronunciada em Saturno",
                 value: "0"
             },
             {
-                name: "Camada externa da atmosfera, mais pronunciada em Vênus",
+                name: "Mais pronunciada em Vênus",
                 value: "0"
             },
             {
-                name: "Camada externa da atmosfera, mais pronunciada em Mercúrio",
+                name: "Mais pronunciada em Mercúrio",
                 value: "1"
             },  
         ]
     },
     {
         title: "Qual é a principal razão para Plutão ter sido reclassificado como 'planeta anão' em 2006?",
+        level: "Difícil",
         alternativas: [
             {
                 name: "Plutão não tem satélites",
@@ -470,6 +492,7 @@ const questoes = [
     },
     {
         title: "Qual é a composição principal dos anéis de Saturno?",
+        level: "Difícil",
         alternativas: [
             {
                 name: "Gelo e Rochas",
@@ -491,6 +514,7 @@ const questoes = [
     },
     {
         title: "Qual é o nome do fenômeno que ocorre quando um planeta parece 'voltar' em seu caminho no céu (movimento retrógrado)?",
+        level: "Difícil",
         alternativas: [
             {
                 name: "Eclipse",
@@ -512,6 +536,7 @@ const questoes = [
     },
     {
         title: "Quais são os principais componentes da atmosfera de Júpiter?",
+        level: "Difícil",
         alternativas: [
             {
                 name: "Nitrogênio e oxigênio",
@@ -533,6 +558,7 @@ const questoes = [
     },
     {
         title: "O que é a Grande Mancha Vermelha em Júpiter?",
+        level: "Difícil",
         alternativas: [
             {
                 name: "Uma tempestade permanente",
@@ -554,6 +580,7 @@ const questoes = [
     },
     {
         title: "Qual planeta tem a maior inclinação axial do Sistema Solar, resultando em um eixo de rotação muito inclinado?",
+        level: "Difícil",
         alternativas: [
             {
                 name: "Urano",
@@ -575,6 +602,7 @@ const questoes = [
     },
     {
         title: "Qual é o nome do maior vulcão do Sistema Solar e onde ele está localizado?",
+        level: "Difícil",
         alternativas: [
             {
                 name: "Monte Etna, na Terra",
@@ -595,31 +623,33 @@ const questoes = [
         ]
     },
     {
-        title: "O que são os 'cometas de longo período' e como eles se distinguem dos cometas de curto período?",
+        title: "Como destinguir cometas de longo e de curto período?",
+        level: "Difícil",
         alternativas: [
             {
-                name: "Cometas de longo período têm órbitas mais longas e menos previsíveis",
+                name: "Os de longo período têm órbitas mais longas e menos previsíveis",
                 value: "1"
             },
             {
-                name: "Cometas de longo período orbitam dentro da zona habitável",
+                name: "Os de longo período orbitam dentro da zona habitável",
                 value: "0"
             },
             {
-                name: "Cometas de longo período nunca voltam ao Sistema Solar",
+                name: "Os de longo período nunca voltam ao Sistema Solar",
                 value: "0"
             },
             {
-                name: "Cometas de longo período não têm cauda",
+                name: "Os de longo período não têm cauda",
                 value: "0"
             },  
         ]
     },
     {
-        title: "Como as auroras boreais e austrais se formam e em que planetas do Sistema Solar fenômenos semelhantes podem ocorrer?",
+        title: "Como as auroras boreais e austrais se formam?",
+        level: "Difícil",
         alternativas: [
             {
-                name: "Quando partículas solares interagem com a atmosfera, podendo ocorrer em Júpiter e Saturno",
+                name: "Quando partículas solares interagem com a atmosfera",
                 value: "1"
             },
             {
@@ -640,13 +670,33 @@ const questoes = [
 ]
 
 
-// CRIACAO DAS QUESTOES
+// CRIACAO E EMBARALHAMENTO DAS QUESTOES
 window.addEventListener("DOMContentLoaded", ()=>{
-
+    
     let contador = 1
     let questoes_embaralhadas = questoes.sort(()=> {
         return Math.random() - 0.5
     })
+
+    while(true){
+        let text = `Escolha entre 1, 2 e 3 para selecionar os níveis.
+1 - Fácil 
+2 - Médio 
+3 - Difícil`
+        let prompte = prompt(text)
+        if (prompte.toLowerCase()=="fácil" || prompte.toLowerCase()=="1"){
+            questoes_embaralhadas = questoes_embaralhadas.filter(quest => quest.level == "Fácil")
+            break
+        }else if(prompte.toLowerCase()=="médio" || prompte.toLowerCase()=="2"){
+            questoes_embaralhadas = questoes_embaralhadas.filter(quest => quest.level == "médio")
+            break
+        }else if(prompte.toLowerCase()=="difícil" || prompte.toLowerCase()=="3"){
+            questoes_embaralhadas = questoes_embaralhadas.filter(quest => quest.level == "Difícil")
+            break
+        }else{
+            window.alert("Opção Inválida")
+        }
+    }
 
     questoes_embaralhadas.forEach(questao=>{
         const div_questao = document.createElement('div')
@@ -687,7 +737,7 @@ window.addEventListener("DOMContentLoaded", ()=>{
 
 
 
-// ORGANIZACAO DAS QUESTOES E PONTUACAO
+// ORGANIZACAO DA PONTUACAO
 
 function verificarRespostas(){
     document.querySelectorAll(".questao").forEach(div=>{
