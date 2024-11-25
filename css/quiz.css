@@ -11,7 +11,7 @@ body {
     background-color: #1c1919;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .quests {
@@ -130,7 +130,7 @@ button:hover {
   }
 
   .erro:hover {
-    background-color: #c72525;
+    background-color: #c72535;
   }
 
   .spanAlerts {

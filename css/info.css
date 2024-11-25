@@ -24,6 +24,9 @@
 #pag7{
     display: none;
 }
+#pag8{
+    display: none;
+}
 
 body[page=pag0] #pag0{
     display: block;
@@ -47,6 +50,9 @@ body[page=pag6] #pag6{
     display: block;
 }
 body[page=pag7] #pag7{
+    display: block;
+}
+body[page=pag8] #pag8{
     display: block;
 }
 
@@ -146,5 +152,5 @@ model-viewer{
     margin: 5% 5% 0 10%;
     width: 40%;
     height: 500px;
-    /* border: 5px solid black; */
+    /* border: 5px solid white; */
 }

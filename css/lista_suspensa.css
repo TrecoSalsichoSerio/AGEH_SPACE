@@ -49,3 +49,18 @@
     text-align: center;
     display: inline-block;
 }
+
+.quiz-button{
+    background-color: #ffffff00;
+    cursor: pointer;
+    color: white;
+    padding: 4%;
+    text-decoration: none;
+    display: inline-block;
+    border: #ffffff solid 1px;
+    min-width: 60%;
+}
+
+.quiz-button:hover{
+    background-color: #ffffff60;
+}
